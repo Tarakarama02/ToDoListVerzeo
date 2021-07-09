@@ -1,22 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <h1 id = "title">To-Do List</h1>
-        <h2 id = "subtitle">Verzeo <b>Web Development</b> Project</h2>
-    </header>
-    <div id = "container">
-        
-    </div>
-    <footer>
-        <h2>Made with <heart id="heart">♥</heart> by Dhyan Hembrom </h2>
-    </footer>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+    </head>
+    <body>
+        <div class="maindiv">
+            <div class="header">
+                <h2 class="list-title">Todo list</h2>
+                <p class="task-count">N tasks remaining</p>
+            </div>
+            <div class="tasks">
+                <div class="display">
+                    <div class="task">
+                        <input 
+                            type="checkbox"
+                            id="Task-1" 
+                        />
+                        <label for="task-1">
+                            complete front end
+                        </label>
+                    </div>
+                    
+                    <div class="task">
+                        <input 
+                            type="checkbox"
+                            id="Task-2" 
+                        />
+                        <label for="task-2">
+                            <span class="custom-checkbox"></span>
+                            complete front end
+                        </label>
+                    </div>
+
+                    <div class="task">
+                        <input 
+                            type="checkbox"
+                            id="Task-3" 
+                        />
+                        <label for="task-3">
+                            complete front end
+                        </label>
+                    </div>
+                </div>
+                <div class="new-task">
+                    <form action="">
+                        <input 
+                            type="text"
+                            class="new-list"
+                            placeholder="Enter the new task"    
+                        />
+                        <button 
+                            class="btn-new-task"
+                            aria-label="Crete-new-list"
+                        >+</button>
+                        <div class="priority">
+                            
+                        </div>
+                    </form>
+                </div>
+                <div class="delete-task">
+
+                </div>
+            </div>
+            <div class="footer">
+
+            </div>
+        </div>
+    
+    </body>
 </html>
